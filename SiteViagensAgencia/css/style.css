@@ -50,21 +50,21 @@ html,body{
 	background-repeat: no-repeat;
 	background-image: url('../imagens/ceu.jpg');
 	position: relative;
-	/* animation: changebanner 20s infinite; */
+	animation: changebanner 20s infinite;
 }
 
 /* animacao */
 @keyframes changebanner{
     25%{
-        background-image: url('../img/dubai.jpg');
+        background-image: url('../imagens/dubai.jpg');
     }
 
     50%{
-        background-image: url('../img/city.jpg');
+        background-image: url('../imagens/grecia.jpg');
     }
 
     75%{
-        background-image: url('../img/new-york.jpg');
+        background-image: url('../imagens/NOVA-YORK.jpg');
     }
 
 }
@@ -119,7 +119,27 @@ button{
     cursor: pointer;
     outline: none;
 
-/* }
+}
+
+.container-informacoes{
+	width: 100%;
+	height: 250px;
+	background-image: url('../imagens/agencia.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	border-top: 2px solid blue;
+}
+
+.informacoes{
+	width: 80%;
+	height: 100px;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+	border-radius: 10px;
+	margin:15px auto;
+
+}
 
 
 
@@ -202,4 +222,4 @@ article img.aviao, img.escritorio{
 	top: 20px;
 	position: relative;
 
-} */
+} 
