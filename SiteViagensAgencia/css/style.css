@@ -121,6 +121,8 @@ button{
 
 }
 
+/*container informacoes*/
+
 .container-informacoes{
 	width: 100%;
 	height: 250px;
@@ -141,85 +143,3 @@ button{
 
 }
 
-
-
-/* outros*/
-.cabecalho{
-    border: 5px double black;
-    margin: 20px auto;
-	background-image: url('../imagens/dubai.jpg');
-	background-repeat: no-repeat;	
-	display: block;
-	width: 1290px;
-	height: 300px;
-	background-size: 100%;
-	background-position: center;
-	box-shadow: 10px 10px 30px blue;
-}
-
-.cabecalho h1{
-    padding: 0 20px;
-    margin: 0 20px;
-    box-shadow: 5px 5px 20px violet;
-    left: 300px;
-    position: absolute;
-    display: block;
-    font-family: 'Righteous-Regular',sans-serif;
-	font-style: italic;
-	color: white;
-	text-shadow: 3px 3px 10px red;
-	font-size: 60px;
-
-}
-
-article p{
-    margin-top: 20px;
-	font-family: 'Righteous-Regular', sans-serif;
-}
-
-article{
-	box-shadow: 5px 5px 10px white;
-	width: 600px;
-	height: auto;
-	box-sizing: border-box;
-}
-
-.artigo1{
-    padding: 10px;
-	margin-left: 20px;
-	text-align: justify;
-	display: block;
-	top: 0;
-}
-
-.artigo1 h1{
-    text-shadow: 3px 3px black;
-	font-family: 'arial black',sans-serif;
-	letter-spacing: 3px;
-	font-style: italic;
-	text-align: center;
-	font-size: 30px;
-	color: white;
-	background-color: blue;
-	box-shadow: 10px 10px 20px blue ;
-
-}
-
-.artigo1 h2{
-    margin-top: 20px;
-    font-style: italic;
-    font-family: 'arial black',sans-serif;
-	font-size: 25px;
-	color: white;
-	text-shadow: 2px 2px black;
-
-}
-
-article img.aviao, img.escritorio{
-	width: 96%;
-	padding: 5px;
-	border: 5px solid black;
-	top: 20px;
-	position: relative;
-
-} 
