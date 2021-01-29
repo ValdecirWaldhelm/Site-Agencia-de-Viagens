@@ -31,7 +31,10 @@ html,body{
 .logo{
 	width: 200px;
 	height: 80px;
-	background-color: blue;
+    background-image: url('../imagens/flybourg-logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .desktop ul li{
@@ -78,7 +81,7 @@ html,body{
     left: 0;
 }
 
-.container-main.container-text{
+.container-main .container-text{
     position: relative;
     z-index: 1;
     padding: 150px;
