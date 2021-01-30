@@ -252,4 +252,9 @@ button{
     border-bottom: 5px solid black;
 }
 
+/*rodape*/
 
+footer{
+    text-align: center;
+    background-color: blue;
+}
