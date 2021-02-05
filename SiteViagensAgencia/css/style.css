@@ -257,7 +257,7 @@ button{
 aside{
     width: 100%;
     height: 600px;
-    background-image: url('../imagens/aviao.jpg');
+    background-image: url('../imagens/statue-of-liberty.jpg');
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -268,8 +268,8 @@ aside{
 .side-left{
     width: 400px;
     height: 400px;
-    background-image: url('../imagens/img5.jpg');
-    background-size: cover;
+    background-image: url('../imagens/NOVA-YORK.jpg');
+    background-size: contain;
     background-attachment: fixed;
 }
 
